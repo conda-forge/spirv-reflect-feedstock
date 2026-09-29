@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.4.357.0"
+  version: "1.4.363.0"
 
 package:
   name: spirv-reflect
@@ -10,7 +10,7 @@ package:
 # Vulkan SDK components use vulkan-sdk-* tags for stable releases.
 source:
   url: https://github.com/KhronosGroup/SPIRV-Reflect/archive/refs/tags/vulkan-sdk-${{ version }}.tar.gz
-  sha256: c865bd55459c5b8020a6ac962e462fc33eb4bf2dae8bf7c474357c58ce22a95d
+  sha256: e0b2914648ab2eac1c83851911199e73f868d966e183531e4c227a258ea07bc6
   patches:
     - add-shared-library.patch
 
